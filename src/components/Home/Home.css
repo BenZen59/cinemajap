@@ -1,0 +1,18 @@
+.Home h2{
+  font-weight: bold;
+  font-size: 70px;
+  padding: 20px;
+}
+
+.Home p{
+  font-size: 20px;
+}
+
+.Home a{
+  font-size: 5px;
+}
+
+body{
+  background-image: url("../../image/25101.jpg");
+  background-size: cover;
+}

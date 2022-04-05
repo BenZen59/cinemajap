@@ -1,0 +1,112 @@
+.navBar
+{
+  color: white;
+  background-color: black;
+  height: 70px;
+  font-size: 25px;
+}
+
+.navBarLinks{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.logo{
+  margin-left: -230px;
+  width: 4%;
+  margin-top: -11px;
+}
+
+.navBarItem{
+  padding-left: 50px;
+}
+
+.navBarBurger{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  
+}
+
+@media screen and (max-width: 767px){
+  .logo {
+    display: none;
+  }
+  .navBarLinks {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: -100vw;
+    bottom: 0;
+    height: 100vh;
+    background-color: black;
+    visibility: hidden;
+  }
+
+  .showNav .navBarLinks{
+    right: 0;
+    width: 100vw;
+    visibility: visible;
+  }
+
+  .navBarItem{
+    padding-left: 0px;
+    padding-bottom: 100px;
+  }
+
+  .navBarBurger{
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .navBarBurger:hover{
+    cursor: pointer;
+  }
+
+  .burgerBar,
+  .burgerBar::before,
+  .burgerBar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    left: -300px;
+    border-radius: 3px;
+    background: white;
+    transition: all .5s ease-in-out;
+  }
+
+  .burgerBar::before,
+  .burgerBar::after {
+    content:"";
+    position: absolute;
+    left: 0;
+}
+
+.burgerBar::before{
+  transform: translateY(-12px);
+}
+
+.burgerBar::after {
+  transform: translateY(12px);
+}
+
+.showNav .burgerBar{
+  width: 0;
+  background: transparent;
+}
+
+.showNav .burgerBar::before{
+  transform: rotate(45deg);
+}
+
+.showNav .burgerBar::after{
+  transform: rotate(-45deg);
+}
+}
