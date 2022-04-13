@@ -1,4 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
+import Card from './Card';
 import './Home.css';
 
 export default function Home() {
@@ -96,6 +97,8 @@ export default function Home() {
             }}
           />
         </div>
+
+        <Card />
       </div>
     </div>
   );
