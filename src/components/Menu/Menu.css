@@ -1,6 +1,6 @@
 .navBar
 {
-  color: white;
+  color: #E7E8EC;
   background-color: black;
   height: 70px;
   font-size: 25px;
@@ -28,7 +28,7 @@
   background: transparent;
   border: none;
   color: inherit;
-  
+
 }
 
 @media screen and (max-width: 767px){
@@ -78,7 +78,7 @@
     position: relative;
     left: -300px;
     border-radius: 3px;
-    background: white;
+    background: #E7E8EC;
     transition: all .5s ease-in-out;
   }
 
@@ -91,6 +91,7 @@
 
 .burgerBar::before{
   transform: translateY(-12px);
+  
 }
 
 .burgerBar::after {
@@ -109,4 +110,5 @@
 .showNav .burgerBar::after{
   transform: rotate(-45deg);
 }
+
 }

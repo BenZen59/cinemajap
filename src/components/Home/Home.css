@@ -16,3 +16,14 @@ body{
   background-image: url("../../image/25101.jpg");
   background-size: cover;
 }
+
+.text{
+  font-size: 50px;
+  margin-top: 350px;;
+}
+
+@media screen and (max-width: 767px){
+  .text{
+    margin-top: 80px;;
+  }
+}

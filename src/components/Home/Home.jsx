@@ -97,7 +97,7 @@ export default function Home() {
             }}
           />
         </div>
-
+        <div className='text'>Sur ce site vous pouvez</div>
         <Card />
       </div>
     </div>

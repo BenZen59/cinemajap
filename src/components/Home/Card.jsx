@@ -7,10 +7,12 @@ export default function Card() {
     <div className='card'>
       {card.map((event) => {
         return (
-          <div className='inside'>
-            <img src={event.picture} alt='card' />
-            <p>{event.content}</p>
-          </div>
+          <>
+            <div className='inside'>
+              <img src={event.picture} alt='card' />
+              <p>{event.content}</p>
+            </div>
+          </>
         );
       })}
     </div>
