@@ -45,6 +45,7 @@
     height: 100vh;
     background-color: black;
     visibility: hidden;
+   
   }
 
   .showNav .navBarLinks{
@@ -63,10 +64,12 @@
     position: fixed;
     top: 1rem;
     right: 1rem;
+    z-index: 3;
   }
 
   .navBarBurger:hover{
     cursor: pointer;
+    z-index: 3;
   }
 
   .burgerBar,
@@ -80,6 +83,8 @@
     border-radius: 3px;
     background: #E7E8EC;
     transition: all .5s ease-in-out;
+    z-index: 3;
+
   }
 
   .burgerBar::before,
@@ -87,28 +92,37 @@
     content:"";
     position: absolute;
     left: 0;
+    z-index: 3;
 }
 
 .burgerBar::before{
   transform: translateY(-12px);
-  
+  z-index: 3;
 }
 
 .burgerBar::after {
   transform: translateY(12px);
+  z-index: 3;
 }
 
 .showNav .burgerBar{
   width: 0;
   background: transparent;
+  z-index: 3;
 }
 
 .showNav .burgerBar::before{
   transform: rotate(45deg);
+  z-index: 3;
 }
 
 .showNav .burgerBar::after{
   transform: rotate(-45deg);
+  z-index: 3;
+}
+
+.navBarLinks{
+  z-index: 2;
 }
 
 }
