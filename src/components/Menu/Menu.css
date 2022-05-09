@@ -1,6 +1,6 @@
 .navBar
 {
-  color: #E7E8EC;
+  color: whitesmoke;
   background-color: black;
   height: 70px;
   font-size: 25px;
@@ -29,6 +29,14 @@
   border: none;
   color: inherit;
 
+}
+
+nav.dark{
+  background-color: whitesmoke;
+}
+
+nav.light{
+  background-color: black;
 }
 
 @media screen and (max-width: 767px){
@@ -81,7 +89,7 @@
     position: relative;
     left: -300px;
     border-radius: 3px;
-    background: #E7E8EC;
+    background: whitesmoke;
     transition: all .5s ease-in-out;
     z-index: 3;
 
@@ -124,5 +132,4 @@
 .navBarLinks{
   z-index: 2;
 }
-
 }

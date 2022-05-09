@@ -1,4 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
+import classnames from 'classnames';
 import Card from './Card';
 import './Home.css';
 
@@ -54,8 +55,35 @@ export default function Home() {
     fontSize: '20px',
     fontWeight: 'bold',
   };
+
+  function DarkMode() {
+    const body = document.body;
+    const nav = document.querySelector('.navBar');
+    const btnToggle = document.querySelector('.btnToggle');
+    if (btnToggle.classList.contains('dark')) {
+      btnToggle.classList.add('light');
+      btnToggle.classList.remove('dark');
+      btnToggle.innerHTML = 'Go Light';
+      body.style.backgroundColor = '#000';
+      body.style.color = '#fff';
+      nav.style.backgroundColor = 'whitesmoke';
+      nav.style.color = '#000';
+    } else if (btnToggle.classList.contains('light')) {
+      btnToggle.classList.add('dark');
+      btnToggle.classList.remove('light');
+      btnToggle.innerHTML = 'Go Dark';
+      body.style.backgroundColor = 'whitesmoke';
+      body.style.color = '#000';
+      nav.style.backgroundColor = '#000';
+      nav.style.color = 'whitesmoke';
+    }
+  }
+
   return (
     <div className='Home'>
+      <div className={classnames('btnToggle', 'light')} onClick={DarkMode}>
+        Go Dark
+      </div>
       <div style={{ textAlign: 'center' }}>
         <h2>Le cinéma japonais</h2>
         <br />
