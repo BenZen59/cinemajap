@@ -66,7 +66,7 @@ export default function Home() {
       btnToggle.innerHTML = 'Go Light';
       body.style.backgroundColor = '#000';
       body.style.color = '#fff';
-      nav.style.backgroundColor = 'whitesmoke';
+      nav.style.backgroundColor = '#949494';
       nav.style.color = '#000';
     } else if (btnToggle.classList.contains('light')) {
       btnToggle.classList.add('dark');
