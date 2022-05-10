@@ -74,7 +74,7 @@ export default function Home() {
         inside[i].style.border = '1px solid whitesmoke';
       }
       for (let i = 0; i < 5; i++) {
-        insideImg[i].style.border = '1px solid whitesmoke';
+        insideImg[i].style.borderBottom = '1px solid whitesmoke';
       }
     } else if (btnToggle.classList.contains('light')) {
       btnToggle.classList.add('dark');
@@ -88,7 +88,7 @@ export default function Home() {
         inside[i].style.border = '1px solid black';
       }
       for (let i = 0; i < 5; i++) {
-        insideImg[i].style.border = '1px solid black';
+        insideImg[i].style.borderBottom = '1px solid black';
       }
     }
   }
