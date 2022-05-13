@@ -1,5 +1,4 @@
 import { Carousel } from 'react-carousel-minimal';
-import classnames from 'classnames';
 import Card from './Card';
 import './Home.css';
 
