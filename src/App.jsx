@@ -1,9 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DarkModeProvider } from './context/DarKModeContext';
-// import Menu from './components/Menu/Menu';
-// import Home from './components/Home/Home';
 import Container from './context/Container';
 import 'reset-css';
+
 function App() {
   return (
     <div className='App'>
