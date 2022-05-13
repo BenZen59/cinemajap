@@ -56,48 +56,8 @@ export default function Home() {
     fontWeight: 'bold',
   };
 
-  function DarkMode() {
-    const body = document.body;
-    const nav = document.querySelector('.navBar');
-    const inside = document.querySelectorAll('.inside');
-    const insideImg = document.querySelectorAll('.inside > img');
-    const btnToggle = document.querySelector('.btnToggle');
-    if (btnToggle.classList.contains('dark')) {
-      btnToggle.classList.add('light');
-      btnToggle.classList.remove('dark');
-      btnToggle.innerHTML = 'Go Light';
-      body.style.backgroundColor = '#000';
-      body.style.color = '#fff';
-      nav.style.backgroundColor = '#949494';
-      nav.style.color = '#000';
-      for (let i = 0; i < 5; i++) {
-        inside[i].style.border = '1px solid whitesmoke';
-      }
-      for (let i = 0; i < 5; i++) {
-        insideImg[i].style.borderBottom = '1px solid whitesmoke';
-      }
-    } else if (btnToggle.classList.contains('light')) {
-      btnToggle.classList.add('dark');
-      btnToggle.classList.remove('light');
-      btnToggle.innerHTML = 'Go Dark';
-      body.style.backgroundColor = 'whitesmoke';
-      body.style.color = '#000';
-      nav.style.backgroundColor = '#000';
-      nav.style.color = 'whitesmoke';
-      for (let i = 0; i < 5; i++) {
-        inside[i].style.border = '1px solid black';
-      }
-      for (let i = 0; i < 5; i++) {
-        insideImg[i].style.borderBottom = '1px solid black';
-      }
-    }
-  }
-
   return (
     <div className='Home'>
-      <div className={classnames('btnToggle', 'light')} onClick={DarkMode}>
-        Go Dark
-      </div>
       <div style={{ textAlign: 'center' }}>
         <h2>Le cinéma japonais</h2>
         <br />

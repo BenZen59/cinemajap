@@ -37,6 +37,36 @@ body{
   cursor: pointer;
   border: 2px solid whitesmoke;
 }
+
+.Container{
+  height: 180vh;
+  width: 100vw;
+  
+}
+
+.Container-dark {
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.Container-dark > .navBar{
+  background-color: #949494;
+  color: #000;
+}
+
+.Container-dark .inside{
+  border: 1px solid whitesmoke;
+}
+
+.Container-dark .inside > img{
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Container-light {
+background-color: whitesmoke;
+color: #000;
+}
+
 @media screen and (max-width: 767px){
   .text{
     margin-top: 80px;;
@@ -50,5 +80,5 @@ body{
     border-radius: 50%;
     margin-top: 70px;
   }
-}
 
+}
