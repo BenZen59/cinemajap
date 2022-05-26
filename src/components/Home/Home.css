@@ -18,7 +18,9 @@ body{
 
 .text{
   font-size: 50px;
-  margin-top: 350px;;
+  margin-top: 350px;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .btnToggle{
@@ -81,4 +83,7 @@ color: #000;
     margin-top: 70px;
   }
 
+  .Container-dark .navBarItem{
+    color: whitesmoke;
+  }
 }

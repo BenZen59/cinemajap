@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { DarkModeContext } from './DarKModeContext';
+import './Lightswitch.css';
 
 function Lightswitch() {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);

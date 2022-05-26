@@ -2,6 +2,7 @@ import React from 'react';
 import './Menu.css';
 import Japon from '../../image/japon.png';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Menu() {
   const [showLinks, setShowLinks] = useState(false);
@@ -12,7 +13,10 @@ export default function Menu() {
     <nav className={`navBar ${showLinks ? 'showNav' : 'hideNav'}`}>
       <ul className='navBarLinks'>
         <img className='logo' src={Japon} alt='logo' />
-        <li className='navBarItem'>Histoire</li>
+        <li className='navBarItem'>
+          <NavLink to='/histoire'>Histoire</NavLink>
+        </li>
+
         <li className='navBarItem'>Genres</li>
         <li className='navBarItem'>Réalisateurs</li>
         <li className='navBarItem'>Studios</li>
