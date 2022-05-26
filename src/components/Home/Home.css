@@ -1,7 +1,7 @@
 .Home h2{
   font-weight: bold;
   font-size: 50px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .Home p{
@@ -19,8 +19,7 @@ body{
 .text{
   font-size: 50px;
   margin-top: 350px;
-  text-decoration: none;
-  color: whitesmoke;
+  
 }
 
 .btnToggle{
