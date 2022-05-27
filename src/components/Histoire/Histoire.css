@@ -27,6 +27,10 @@
   border: 1px solid black;
 }
 
+.Container-dark .pictureRight > img{
+  border: 1px solid whitesmoke;
+}
+
 .histoire{
   display: flex;
 }

@@ -22,37 +22,14 @@ body{
   
 }
 
-.btnToggle{
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: black;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-  cursor: pointer;
-  border: 2px solid whitesmoke;
-}
-
 .Container{
-  height: 180vh;
-  width: 100vw;
-  
+  height: auto;
+  overflow: hidden;
 }
 
 .Container-dark {
   background-color: #000;
   color: whitesmoke;
-}
-
-.Container-dark > .navBar{
-  background-color: #949494;
-  color: #000;
 }
 
 .Container-dark .inside{
@@ -71,15 +48,6 @@ color: #000;
 @media screen and (max-width: 767px){
   .text{
     margin-top: 80px;;
-  }
-
-  .btnToggle{
-    top: 15px;
-    right: 10px;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    margin-top: 70px;
   }
 
   .Container-dark .navBarItem{

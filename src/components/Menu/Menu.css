@@ -22,6 +22,10 @@
   padding-left: 50px;
 }
 
+.Container-dark > .navBar{
+  background-color: #949494;
+  color: #000;
+} 
 .Container-dark .navBarItem > a{
   text-decoration: none;
   color: #000;
@@ -53,6 +57,14 @@ nav.dark{
 
 nav.light{
   background-color: black;
+}
+
+a.active{
+  background-color: #000;
+}
+
+.Container-dark  a.active{
+  background-color: #949494;
 }
 
 @media screen and (max-width: 767px){
