@@ -8,7 +8,7 @@ import Kitano from '../../image/kitano.jpg';
 export default function Histoire() {
   return (
     <div className='histoire'>
-      <div>
+      <main>
         <h1>Histoire du cinéma japonais</h1>
         <h2>Les débuts</h2>
         <p className='texte'>
@@ -431,8 +431,8 @@ export default function Histoire() {
           l'accident nucléaire de Fukushima. Leurs films des années 1960 et 1970
           sortent pour la première fois en Occident.
         </p>
-      </div>
-      <div className='pictureRight'>
+      </main>
+      <aside className='pictureRight'>
         <img src={VoyageTokyo} alt='voyageTokyo' />
         <p className='description'>
           Affiche du film Voyage à Tokyo de <br />
@@ -453,7 +453,7 @@ export default function Histoire() {
         <p className='description'>Affiche du film Godzilla (1954).</p>
         <img className='kitano' src={Kitano} alt='kitano' />
         <p className='description'>Takeshi Kitano</p>
-      </div>
+      </aside>
     </div>
   );
 }

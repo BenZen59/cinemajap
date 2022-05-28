@@ -54,3 +54,42 @@
   height: 307px;
   width: 220px;
 }
+
+@media screen and (max-width: 767px){
+  .texte{
+    padding: 30px;
+  }
+
+  .histoire{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .histoire h2{
+    word-wrap: break-word;
+    padding-right: 60px;
+    padding-left: 30px;
+  }
+
+  .pictureRight > img{
+    margin-left: 40px;
+  }
+
+  .description{
+    padding-left: 48px;
+    padding-bottom: 50px;
+    margin-top: -45px;
+  }
+
+  .godzilla{
+    margin-top: 0px;
+    height: 307px;
+    width: 220px;
+  }
+  
+  .kitano{
+    margin-top: 0px;
+    height: 307px;
+    width: 220px;
+  }
+}
