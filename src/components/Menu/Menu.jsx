@@ -14,7 +14,9 @@ export default function Menu() {
       <ul className='navBarLinks'>
         <img className='logo' src={Japon} alt='logo' />
         <li className='navBarItem'>
-          <NavLink to='/histoire'>Histoire</NavLink>
+          <NavLink onClick={handleShowLinks} to='/histoire'>
+            Histoire
+          </NavLink>
         </li>
 
         <li className='navBarItem'>Genres</li>
