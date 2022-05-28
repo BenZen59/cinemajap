@@ -127,6 +127,7 @@ a.active{
     position: fixed;
     top: 0px;
     width: 844px;
+    z-index: 3;
 }
   .burgerBar,
   .burgerBar::before,

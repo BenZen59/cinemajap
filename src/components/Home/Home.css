@@ -46,6 +46,7 @@ background-color: whitesmoke;
 color: #000;
 }
 
+
 @media screen and (max-width: 767px){
   .text{
     margin-top: 100px;
