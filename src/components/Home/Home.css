@@ -6,6 +6,7 @@
 
 .Home p{
   font-size: 20px;
+ 
 }
 
 .Home a{
@@ -45,7 +46,7 @@ background-color: whitesmoke;
 color: #000;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px){Home
   .text{
     margin-top: 80px;
   }
