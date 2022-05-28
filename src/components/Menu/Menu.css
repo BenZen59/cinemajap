@@ -1,9 +1,11 @@
+
 .navBar
 {
   color: whitesmoke;
   background-color: black;
   height: 70px;
   font-size: 25px;
+
 }
 
 .navBarLinks{
@@ -71,6 +73,12 @@ a.active{
   .logo {
     display: none;
   }
+
+
+  .Container-dark a.active{
+    background-color: #000;
+    color: whitesmoke;
+  }
   .navBarLinks {
     flex-direction: column;
     justify-content: center;
@@ -107,7 +115,13 @@ a.active{
     cursor: pointer;
     z-index: 3;
   }
-
+.navBar.hideNav{
+  
+  padding: 1px;
+    position: fixed;
+    top: 0px;
+    width: 844px;
+}
   .burgerBar,
   .burgerBar::before,
   .burgerBar::after {
@@ -129,11 +143,12 @@ a.active{
     position: absolute;
     left: 0;
     z-index: 3;
-}
-
-.burgerBar::before{
-  transform: translateY(-12px);
-  z-index: 3;
+    
+  }
+  
+  .burgerBar::before{
+    transform: translateY(-12px);
+    z-index: 3;
 }
 
 .burgerBar::after {
