@@ -28,6 +28,7 @@
   background-color: #949494;
   color: #000;
 } 
+
 .Container-dark .navBarItem > a{
   text-decoration: none;
   color: #000;
@@ -115,9 +116,9 @@ a.active{
     cursor: pointer;
     z-index: 3;
   }
-.navBar.hideNav{
-  
-  padding: 1px;
+
+  .navBar.hideNav{
+      padding: 1px;
     position: fixed;
     top: 0px;
     width: 844px;
@@ -151,15 +152,15 @@ a.active{
     z-index: 3;
 }
 
-.burgerBar::after {
-  transform: translateY(12px);
-  z-index: 3;
+  .burgerBar::after {
+    transform: translateY(12px);
+    z-index: 3;
 }
 
-.showNav .burgerBar{
-  width: 0;
-  background: transparent;
-  z-index: 3;
+  .showNav .burgerBar{
+    width: 0;
+    background: transparent;
+    z-index: 3;
 }
 
 .showNav .burgerBar::before{
