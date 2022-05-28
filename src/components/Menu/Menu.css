@@ -75,11 +75,16 @@ a.active{
     display: none;
   }
 
-
+  
   .Container-dark a.active{
     background-color: #000;
     color: whitesmoke;
   }
+
+  .Container-dark .navBarItem > a{
+    color: whitesmoke;
+  }
+
   .navBarLinks {
     flex-direction: column;
     justify-content: center;
@@ -101,7 +106,7 @@ a.active{
 
   .navBarItem{
     padding-left: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
 
   .navBarBurger{
