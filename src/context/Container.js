@@ -5,6 +5,7 @@ import Lightswitch from './Lightswitch.js';
 import Home from '../components/Home/Home';
 import Menu from '../components/Menu/Menu';
 import Histoire from '../components/Histoire/Histoire';
+import Realisateur from '../components/Realisateur/Realisateur';
 
 function Container() {
   const { darkMode } = useContext(DarkModeContext);
@@ -20,6 +21,7 @@ function Container() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/histoire' element={<Histoire />} />
+          <Route path='/realisateur' element={<Realisateur />} />
         </Routes>
       </BrowserRouter>
     </div>
