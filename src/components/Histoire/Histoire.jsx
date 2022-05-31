@@ -16,7 +16,7 @@ export default function Histoire() {
           film pour désigner les bobineaux enregistrés avec la première caméra
           de cinéma, le Kinétographe, par son assistant William Kennedy Laurie
           Dickson, sont connus des Japonais dès novembre 1896 car ils sont
-          présentés à Kobe2 à l'aide des kinétoscopes, les appareils de
+          présentés à Kobe à l'aide des kinétoscopes, les appareils de
           visionnement individuel mis au point par Dickson d'après les croquis
           de l'industriel américain.
           <br />
