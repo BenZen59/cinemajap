@@ -2,22 +2,22 @@ let card = [
   {
     id: 1,
     picture: 'https://i.imgur.com/pNFsTkm.png',
-    content: "Un historique de l'histoire du cinéma japonais",
+    content: "L'histoire du cinéma japonais",
   },
   {
     id: 2,
     picture: 'https://i.imgur.com/UuAtK9a.png',
-    content: 'Liste des différents genres de film dans le cinéma japonais',
+    content: 'Liste détaillée des différents genres du cinéma japonais',
   },
   {
     id: 3,
     picture: 'https://i.imgur.com/ATIdQhV.png',
-    content: 'Voir la liste des différents réalisateurs',
+    content: 'La liste des réalisateurs les plus importants',
   },
   {
     id: 4,
     picture: 'https://i.imgur.com/eNL7Aq3.png',
-    content: 'Voir la liste des studios les plus importants',
+    content: 'La liste des studios les plus emblématiques',
   },
   {
     id: 5,

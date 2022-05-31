@@ -6,15 +6,19 @@
 }
 
 .inside{
-  height: 238px;
-  width: 188px;
-  border: 1px solid black;
+  height: 306px;
+  width: 280px;
   display: flex;
   flex-direction: column;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  background-color: #e5e5e5;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
+  border-radius: 10px;
 }
 
 .inside > img{
-  border-bottom: 1px solid black;
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 

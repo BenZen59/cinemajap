@@ -98,7 +98,7 @@ export default function Home() {
             }}
           />
         </div>
-        <div className='text'>Sur ce site vous pouvez</div>
+        <div className='text'>Sur ce site vous pouvez consulter</div>
         <Card />
       </div>
     </div>
