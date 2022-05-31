@@ -1,6 +1,8 @@
 import './Content';
 import './Card.css';
 import card from './Content';
+import { NavLink } from 'react-router-dom';
+import { Button } from 'react-bulma-components';
 
 export default function Card() {
   return (
@@ -10,7 +12,11 @@ export default function Card() {
           <>
             <div className='inside'>
               <img src={event.picture} alt='card' />
-              <p>{event.content}</p>
+              <NavLink to={event.router}>
+                <Button className='buttonCard' renderAs='button'>
+                  <span> {event.content}</span>
+                </Button>
+              </NavLink>
             </div>
           </>
         );

@@ -5,6 +5,8 @@
   justify-content: space-evenly;
 }
 
+
+
 .inside{
   height: 306px;
   width: 280px;
@@ -15,6 +17,27 @@
   background-color: #e5e5e5;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
   border-radius: 10px;
+  
+}
+
+.buttonCard{
+  
+  height: 92px;
+  width: 280px;
+  margin-top: -20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonCard.button{
+  background-color: #e5e5e5;
+}
+
+.buttonCard span{
+  color: #000;
+  background-color: #e5e5e5;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .inside > img{

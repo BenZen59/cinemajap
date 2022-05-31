@@ -8,6 +8,7 @@ import Histoire from '../components/Histoire/Histoire';
 import Realisateur from '../components/Realisateur/Realisateur';
 import Genre from '../components/Genre/Genre';
 import Studio from '../components/Studio/Studio';
+import Film from '../components/Film/Film';
 
 function Container() {
   const { darkMode } = useContext(DarkModeContext);
@@ -26,6 +27,7 @@ function Container() {
           <Route path='/genre' element={<Genre />} />
           <Route path='/realisateur' element={<Realisateur />} />
           <Route path='/studio' element={<Studio />} />
+          <Route path='/film' element={<Film />} />
         </Routes>
       </BrowserRouter>
     </div>
