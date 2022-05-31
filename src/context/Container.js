@@ -6,6 +6,8 @@ import Home from '../components/Home/Home';
 import Menu from '../components/Menu/Menu';
 import Histoire from '../components/Histoire/Histoire';
 import Realisateur from '../components/Realisateur/Realisateur';
+import Genre from '../components/Genre/Genre';
+import Studio from '../components/Studio/Studio';
 
 function Container() {
   const { darkMode } = useContext(DarkModeContext);
@@ -21,7 +23,9 @@ function Container() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/histoire' element={<Histoire />} />
+          <Route path='/genre' element={<Genre />} />
           <Route path='/realisateur' element={<Realisateur />} />
+          <Route path='/studio' element={<Studio />} />
         </Routes>
       </BrowserRouter>
     </div>

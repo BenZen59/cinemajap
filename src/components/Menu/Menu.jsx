@@ -24,13 +24,21 @@ export default function Menu() {
           </NavLink>
         </li>
 
-        <li className='navBarItem'>Genres</li>
+        <li className='navBarItem'>
+          <NavLink onClick={handleShowLinks} to='/genre'>
+            Genres
+          </NavLink>
+        </li>
         <li className='navBarItem'>
           <NavLink onClick={handleShowLinks} to='/realisateur'>
             Réalisateurs
           </NavLink>
         </li>
-        <li className='navBarItem'>Studios</li>
+        <li className='navBarItem'>
+          <NavLink onClick={handleShowLinks} to='/studio'>
+            Studios
+          </NavLink>
+        </li>
       </ul>
       <button className='navBarBurger' onClick={handleShowLinks}>
         <span className='burgerBar'></span>

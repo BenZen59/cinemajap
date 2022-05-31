@@ -5,6 +5,7 @@
   background-color: black;
   height: 70px;
   font-size: 25px;
+  padding: 5px;
 
 }
 
@@ -18,10 +19,6 @@
   margin-left: -165px;
   width: 2.5%;
   margin-top: -11px;
-}
-
-.navBarItem{
-  padding-left: 50px;
 }
 
 .Container-dark > .navBar{
@@ -39,10 +36,30 @@
   text-decoration: none;
   color: whitesmoke;
   cursor: pointer;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.navBarItem:hover{
+  background-color: #949494;
+  z-index : 1;
+  border-radius: 15px;
+  color: #000;
 }
 
 .navBarItem > a:hover{
-  text-decoration: underline;
+  background-color: #949494;
+  color: #000;
+}
+
+.Container-dark .navBarItem:hover{
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.Container-dark .navBarItem > a:hover{
+  background-color: #000;
+  color: whitesmoke;
 }
 
 .navBarBurger{
@@ -52,14 +69,6 @@
   border: none;
   color: inherit;
 
-}
-
-nav.dark{
-  background-color: whitesmoke;
-}
-
-nav.light{
-  background-color: black;
 }
 
 a.active{
