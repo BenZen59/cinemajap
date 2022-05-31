@@ -16,16 +16,18 @@ export default function Histoire() {
           film pour désigner les bobineaux enregistrés avec la première caméra
           de cinéma, le Kinétographe, par son assistant William Kennedy Laurie
           Dickson, sont connus des Japonais dès novembre 1896 car ils sont
-          présentés à Kobe à l'aide des kinétoscopes, les appareils de
+          présentés à Kobe2 à l'aide des kinétoscopes, les appareils de
           visionnement individuel mis au point par Dickson d'après les croquis
           de l'industriel américain.
           <br />
           <br />
           Puis ce sont deux opérateurs des frères Lumière, Gabriel Veyre et
           François-Constant Girel, qui organisent des projections sur grand
-          écran à Osaka en 1897 à l'aide d'un ses concurrents français est faite
-          à Osaka puis à Tokyo, mais la première caméra importée au Japon par
-          Shirō Asano porte la marque Lumière.
+          écran à Osaka en 1897 à l'aide d'un cinématographe.
+          <br />
+          <br /> Une présentation du vitascope qu'Edison aligne contre ses
+          concurrents français est faite à Osaka puis à Tokyo, mais la première
+          caméra importée au Japon par Shirō Asano porte la marque Lumière.
           <br />
           <br /> C'est Shibata Tsunekichi qui commence à tourner les premiers
           films : il s'agit de scènes de rues et de geishas.
@@ -39,7 +41,7 @@ export default function Histoire() {
           Nagai Takagi, qui apparaît dans quatre films produits par la compagnie
           américaine Thanhouser entre 1911 et 1914.
           <br />
-          <br /> Orochi (1925) de Buntarō Futagawa. Shōzō Makino popularise le
+          <br /> "Orochi" (1925) de Buntarō Futagawa. Shōzō Makino popularise le
           genre jidaigeki.
           <br />
           <br /> Il tourne en décors naturels, prologue à la sortie du film
@@ -55,13 +57,13 @@ export default function Histoire() {
           Il ne subsiste que très peu de films de cette époque, car ils ont été
           détruits par le tremblement de terre de 1923 ou les bombardements de
           la Seconde Guerre mondiale. Le séisme de 1923 inspire des mélodrames
-          larmoyants comme La chansonnette du passeur de Daisuke Itō.
+          larmoyants comme "La chansonnette du passeur" de Daisuke Itō.
           <br />
-          <br /> Gosses de Tokyo (1932) de Yasujirō Ozu. Daisuke Itō est
+          <br /> "Gosses de Tokyo (1932) de Yasujirō Ozu. Daisuke Itō est
           peut-être le premier cinéaste, au sens d'utiliser le médium cinéma
           comme expression artistique en tant que telle et non seulement comme
-          une production industrielle, lorsqu'il réalise en 1927 Journal de
-          voyage de Chûji, après avoir écrit de nombreux scénarios de commande.
+          une production industrielle, lorsqu'il réalise en 1927 "Journal de
+          voyage de Chûji", après avoir écrit de nombreux scénarios de commande.
           <br />
           <br /> Au même moment Teinosuke Kinugasa, acteur de kabuki, réalise
           des films marqués par une forte influence européenne.
@@ -77,8 +79,8 @@ export default function Histoire() {
           d'éviter les thèmes idéologiques.
           <br />
           <br /> C'est le début du premier âge d'or du cinéma japonais, avec
-          Gosses de Tokyo de Yasujirō Ozu (1932), L'Élégie d'Osaka et Les Sœurs
-          de Gion de Kenji Mizoguchi (1936).
+          "Gosses de Tokyo" de Yasujirō Ozu (1932), L'Élégie d'Osaka et "Les
+          Sœurs de Gion" de Kenji Mizoguchi (1936).
           <br />
           <br /> En 1936, les studios de la compagnie Shōchiku quittent le
           quartier de Kamata à Tokyo pour s'installer à Ōfuna (ja), dans la
@@ -88,13 +90,13 @@ export default function Histoire() {
           inexorable du militarisme.
           <br />
           <br /> La veille, l'Association des réalisateurs japonais était
-          fondée, ce qui permet à Tomu Uchida de réaliser Le Progrès éternel
+          fondée, ce qui permet à Tomu Uchida de réaliser "Le Progrès éternel"
           (1937) sur une idée d'Ozu, au moment même où débute la guerre
           sino-japonaise.
           <br />
           <br />
-          En 1937, Sadao Yamanaka réalise son dernier film, Pauvres humains et
-          ballons de papier, tenu par Kiyoshi Kurosawa comme le chef-d'œuvre du
+          En 1937, Sadao Yamanaka réalise son dernier film, "Pauvres humains et
+          ballons de papier", tenu par Kiyoshi Kurosawa comme le chef-d'œuvre du
           cinéma japonais, œuvre dominée par le thème de la mort. Yamanaka meurt
           l'année suivante sur le front chinois, à 28 ans.
         </p>
@@ -107,24 +109,24 @@ export default function Histoire() {
           <br /> Les professionnels doivent avoir une autorisation du pouvoir
           japonais. Ainsi, la censure est appliquée avant même les tournages.
           <br />
-          <br /> Cette même année, Le Goût du riz au thé vert de Yasujirō Ozu ne
-          passe pas cette censure préalable ; décrire l'oisiveté de femmes
+          <br /> Cette même année, "Le Goût du riz au thé vert" de Yasujirō Ozu
+          ne passe pas cette censure préalable; décrire l'oisiveté de femmes
           bourgeoises n'est pas autorisé en temps de guerre.
           <br />
           <br /> En 1940, les autorités vont jusqu'à interrompre une projection
           du documentaire Les Soldats au combat et retirer son droit d'exercer
           au réalisateur Fumio Kamei pour ses idées marxistes.
           <br />
-          <br /> Le chef-d'œuvre de Tomotaka Tasaka, Terres et soldats (1939),
+          <br /> Le chef-d'œuvre de Tomotaka Tasaka, "Terres et soldats" (1939),
           décrit les souffrances de la guerre tout en exaltant le militarisme
           nippon.
           <br />
           <br /> Des films ne parlant pas directement de la guerre sont acceptés
           comme la trilogie de l'art réalisée par Kenji Mizoguchi d'après des
-          scénarios de Yoshikata Yoda : Conte des chrysanthèmes tardifs (1939),
-          La Femme de Naniwa (1940) et La Vie d'un acteur (1941) sont une
-          apologie du sacrifice de soi, finalement proches des thèmes des films
-          militaristes.
+          scénarios de Yoshikata Yoda : "Conte des chrysanthèmes tardifs"
+          (1939), "La Femme de Naniwa" (1940) et "La Vie d'un acteur" (1941)
+          sont une apologie du sacrifice de soi, finalement proches des thèmes
+          des films militaristes.
           <br />
           <br /> En 1941, alors que la guerre prend de l'ampleur, le « Bureau
           d'information publique » veut limiter la production en ne gardant que
@@ -145,8 +147,8 @@ export default function Histoire() {
           lesquels sont expérimentées des techniques de prises de vue qui seront
           reprises sur le plateau des Godzilla.
           <br />
-          <br /> Tous les genres contribuent à la propagande. La Vengeance des
-          47 rōnin (en deux parties, 1941-1942), un reshiki-geki (dramatique
+          <br /> Tous les genres contribuent à la propagande. "La Vengeance des
+          47 rōnin" (en deux parties, 1941-1942), un reshiki-geki (dramatique
           historique) fleuve de 3 h 35 de Mizoguchi, reconstitue très
           esthétiquement l'histoire célèbre des 47 rōnin. Ozu tourne en 1942 Il
           était un père qui décrit un père ayant un sens élevé de ses
@@ -155,9 +157,9 @@ export default function Histoire() {
           <br />
           <br />
           Keisuke Kinoshita cède lui aux exigences de la propagande avec, en
-          1943, Le Port en fleurs, tout en réalisant une comédie populaire. Mais
-          son manque d'enthousiasme militariste l'écartera de la réalisation de
-          Kamikazes, un film patriotique.
+          1943, "Le Port en fleurs", tout en réalisant une comédie populaire.
+          Mais son manque d'enthousiasme militariste l'écartera de la
+          réalisation de "Kamikazes", un film patriotique.
           <br />
           <br /> En 1943, l'exemption de service militaire pour les étudiants
           est levée. En 1945, neuf membres de la compagnie de théâtre Sakuratai
@@ -171,11 +173,11 @@ export default function Histoire() {
           <br />
           <br /> En 1946, sort Je ne regrette pas ma jeunesse, virulente
           critique du système qui vient de s'écrouler. La même année, Keisuke
-          Kinoshita, qui a aussi débuté durant la guerre, réalise Le Matin de la
-          famille Osone.
+          Kinoshita, qui a aussi débuté durant la guerre, réalise "Le Matin de
+          la famille Osone".
           <br />
-          <br /> En 1951, Rashōmon, avec la star Toshirō Mifune, reçoit le Lion
-          d'or à Venise puis l'Oscar du meilleur film étranger.
+          <br /> En 1951, "Rashōmon", avec la star Toshirō Mifune, reçoit le
+          Lion d'or à Venise puis l'Oscar du meilleur film étranger.
           <br />
           <br /> Cette récompense stimule l'ambition en berne des aînés. Les
           Contes de la lune vague après la pluie de Kenji Mizoguchi (1953) et
@@ -186,8 +188,8 @@ export default function Histoire() {
           <br /> C'est le deuxième âge d'or. Les studios tournent également de
           très nombreux films de genre.
           <br />
-          <br /> C'est le début des kaijū-eiga (films de monstres) avec Godzilla
-          d'Ishirō Honda en 1954.
+          <br /> C'est le début des kaijū-eiga (films de monstres) avec
+          "Godzilla" d'Ishirō Honda en 1954.
           <br />
           <br /> Durant l'après-guerre, la Nikkatsu qui s'était limitée à la
           distribution après 1941 distribue des films américains puis décide de
@@ -196,8 +198,8 @@ export default function Histoire() {
           <br />
           <br /> La Nikkatsu lance la star Yūjirō Ishihara avec l'adaptation de
           deux romans de Shintarō Ishihara, un écrivain de la « génération du
-          soleil » (taiyōzoku) : La Saison du soleil (Takumi Furukawa, 1956) et
-          Passions juvéniles (Kō Nakahira, 1956).
+          soleil » (taiyōzoku) : "La Saison du soleil" (Takumi Furukawa, 1956)
+          et "Passions juvéniles" (Kō Nakahira, 1956).
           <br />
           <br /> Le succès de ces films entraine l'adoption d'une ligne de
           production de films estampillés Nikkatsu Action, fictions dont le
@@ -218,8 +220,8 @@ export default function Histoire() {
           tels que Keisuke Kinoshita et Yasujirō Ozu, accusés de réaliser un
           cinéma « bourgeois ».
           <br />
-          <br /> Dès son deuxième film, Contes cruels de la jeunesse (1960), qui
-          aborde le renouvellement du traité de sécurité américano-japonais,
+          <br /> Dès son deuxième film, "Contes cruels de la jeunesse" (1960),
+          qui aborde le renouvellement du traité de sécurité américano-japonais,
           Ōshima filme une histoire mêlant sexe et crime, des thèmes qui
           parcourront son œuvre. Le film est retiré de l'affiche après quatre
           jours et Ōshima quitte les studios pour fonder sa société
@@ -233,14 +235,14 @@ export default function Histoire() {
           grâce à un système de collaboration entre une petite société de
           distribution, l'Art Theatre Guild, et une société de production
           dirigée par le réalisateur. D'autres films sortent selon ce système
-          comme La Pendaison de Nagisa Ōshima en 1968.
+          comme "La Pendaison" de Nagisa Ōshima en 1968.
           <br />
           <br /> Ce modèle de financement basé sur de petits budgets permet à de
-          nombreux réalisateurs et à des idées nouvelles d'émerger, comme L'Île
-          nue de Kaneto Shindō.
+          nombreux réalisateurs et à des idées nouvelles d'émerger, comme "L'Île
+          nue" de Kaneto Shindō.
           <br />
-          <br /> À la Nikkatsu, Shōhei Imamura tourne Désir inassouvi
-          (Hateshinaki Yokubo) en 1958 ou La Femme insecte (1963), portrait
+          <br /> À la Nikkatsu, Shōhei Imamura tourne "Désir inassouvi"
+          (Hateshinaki Yokubo) en 1958 ou "La Femme insecte" (1963), portrait
           d'une prostituée luttant pour son indépendance, qui sont
           caractéristiques de son regard d'« entomologiste » de la société
           japonaise.
@@ -251,17 +253,17 @@ export default function Histoire() {
           public.
           <br />
           <br /> Tetsuji Takechi, critique influent et metteur en scène de
-          théâtre traditionnel, décide de réaliser des pinku : Neige noire est
+          théâtre traditionnel, décide de réaliser des pinku : "Neige noire" est
           saisi par la police et Tetsuji poursuivi pour violation des lois sur
           l'obscénité.
           <br />
           <br /> En 1968, Seijun Suzuki qui a passé sa carrière à tenter de
           produire des œuvres stylisées dans le cadre du studio Nikkatsu est mis
-          à la porte à la suite de son film La Marque du tueur.
+          à la porte à la suite de son film "La Marque du tueur".
           <br />
-          <br /> La même année, deux documentaires marquent les esprits : Un été
-          à Narita de Shinsuke Ogawa montre les manifestations de paysans et
-          d'étudiants contre la construction du nouvel aéroport de Tokyo en
+          <br /> La même année, deux documentaires marquent les esprits : "Un
+          été à Narita" de Shinsuke Ogawa montre les manifestations de paysans
+          et d'étudiants contre la construction du nouvel aéroport de Tokyo en
           pleine campagne ; La préhistoire des partisans de Noriaki Tsuchimoto
           suit le meneur de la rébellion étudiante à l'Université de Kyoto.
           <br />
@@ -271,8 +273,8 @@ export default function Histoire() {
         </p>
         <h2>Les années 1970</h2>
         <p className='texte'>
-          En 1971, le premier film de Shūji Terayama Jetez vos livres et
-          descendez dans la rue ! est produit selon le système de collaboration
+          En 1971, le premier film de Shūji Terayama "Jetez vos livres et
+          descendez dans la rue !" est produit selon le système de collaboration
           entre une société de distribution et le réalisateur.
           <br />
           <br /> La même année le critique Eizu Ori écrit à propos de La
@@ -316,29 +318,29 @@ export default function Histoire() {
           productions souvent non japonaises (Kurosawa en URSS, États-Unis,
           France ; Ōshima en France).
           <br />
-          <br /> La Ballade de Narayama de Shōhei Imamura gagne la Palme d'or en
-          1983. Les jidaigeki d'Akira Kurosawa Kagemusha, l'Ombre du guerrier
-          (1980, produit par Hollywood) et Ran (1985, production
+          <br /> "La Ballade de Narayama" de Shōhei Imamura gagne la Palme d'or
+          en 1983. Les jidaigeki d'Akira Kurosawa "Kagemusha, l'Ombre du
+          guerrier" (1980, produit par Hollywood) et "Ran" (1985, production
           franco-japonaise) remportent aussi de nombreux prix.
           <br />
-          <br /> Shōhei Imamura gagne une nouvelle Palme d'or avec L'Anguille en
-          1997. Tous les réalisateurs apparus après 1980 sont nés après la
+          <br /> Shōhei Imamura gagne une nouvelle Palme d'or avec "L'Anguille"
+          en 1997. Tous les réalisateurs apparus après 1980 sont nés après la
           guerre et n'ont jamais travaillé pour les studios.
           <br />
           <br /> Takeshi Kitano qui a commencé par des manzai (sketchs de
-          cabaret) sous le nom de Beat Takeshi est engagé par Nagisa Ōshima pour
-          son film Furyo (1983).
+          cabaret) sous le nom de "Beat Takeshi" est engagé par Nagisa Ōshima
+          pour son film Furyo (1983).
           <br />
           <br /> En 1989, il remplace Kinji Fukasaku pour la réalisation de
-          Violent Cop. Il remanie le scénario en créant son personnage de héros
-          ambigu, dépeignant la société moderne comme règne de la violence
+          "Violent Cop". Il remanie le scénario en créant son personnage de
+          héros ambigu, dépeignant la société moderne comme règne de la violence
           instinctive.
           <br />
-          <br /> Shinji Sōmai dépeint dans Typhoon Club (1985) les affres de la
-          condition des jeunes Japonais désormais voués à la compétition sociale
-          dès leur plus jeune âge et considérés par les producteurs japonais
-          comme une masse se contentant de divertissements violents et/ou
-          érotiques. Il n'y a plus d'alternative à la société capitaliste
+          <br /> Shinji Sōmai dépeint dans "Typhoon Club" (1985) les affres de
+          la condition des jeunes Japonais désormais voués à la compétition
+          sociale dès leur plus jeune âge et considérés par les producteurs
+          japonais comme une masse se contentant de divertissements violents
+          et/ou érotiques. Il n'y a plus d'alternative à la société capitaliste
           industrielle moderne. Les taux de suicide explosent.
         </p>
         <h2>Les années 1990</h2>
@@ -347,24 +349,24 @@ export default function Histoire() {
           dissolution des identités sociales sont des thèmes récurrents de cette
           période.
           <br />
-          <br /> Le Scintillement de Jōji Matsuoka (1992) évoque une famille qui
-          essaie d'inventer de nouveaux modes de coexistence différents du foyer
-          traditionnel.
+          <br /> "Le Scintillement" de Jōji Matsuoka (1992) évoque une famille
+          qui essaie d'inventer de nouveaux modes de coexistence différents du
+          foyer traditionnel.
           <br />
-          <br /> Le personnage de Takeshi Kitano dans Sonatine (1993) illustre
+          <br /> Le personnage de Takeshi Kitano dans "Sonatine" (1993) illustre
           ce nouveau rapport au monde, problématique et sans repères ; même le
           gangster violent n'a plus sa place dans la société lorsqu'il est trop
           vieux. Là encore, la seule issue pour le personnage de Kitano est le
           suicide.
           <br />
           <br /> C'est aussi l'époque de l'émergence de réalisateurs étrangers
-          vivants au Japon, comme De quel côté se trouve la lune de Yōichi Sai
+          vivants au Japon, comme "De quel côté se trouve la lune" de Yōichi Sai
           (1993) qui est un zainichi, c'est-à-dire un Coréen du Japon.
           <br />
           <br /> Alors que les scénarios de films d'horreur étaient jusqu'à
           présent refusés par les producteurs, à la fin des années 1990 des
-          films d'horreur remportent un succès commercial comme Ring de Hideo
-          Nakata (1997) et/ou un succès critique comme Cure (1997) de Kiyoshi
+          films d'horreur remportent un succès commercial comme "Ring" de Hideo
+          Nakata (1997) et/ou un succès critique comme "Cure" (1997) de Kiyoshi
           Kurosawa, jusqu'à parfois faire l'objet de l'objet de remake des
           studios américains.
           <br />
@@ -401,25 +403,25 @@ export default function Histoire() {
           éléments fantastiques qui servent plutôt de prétextes.
           <br />
           <br /> Éléments fantastiques abandonnés à la fin des années 2000 dans
-          Tokyo Sonata (2008). Ce mouvement est appelé Rikkyo nūberu bāgu ou
+          "Tokyo Sonata" (2008). Ce mouvement est appelé Rikkyo nūberu bāgu ou
           Nouvelle vague Rikkyo du nom de l'université dans laquelle enseigne
           Hasumi, et pour la distinguer de la Shochiku nuberu bagu des années
           1960.
           <br />
-          <br /> Sono Sion se fait connaître avec Suicide Club en 2001, très
+          <br /> Sono Sion se fait connaître avec "Suicide Club" en 2001, très
           proche à la fois formellement et thématiquement de ce que fait
           Kurosawa à la même époque. À partir de 2005 il réalise des œuvres plus
           originales portant un regard extrêmement critique sur la société
           japonaise actuelle.
           <br />
-          <br /> En 2012 dans The Land of Hope il aborde la question des
+          <br /> En 2012 dans "The Land of Hope" il aborde la question des
           conséquences d'une catastrophe nucléaire. Naomi Kawase est distinguée
           aussi bien pour ses fictions que pour ses documentaires
           autobiographiques.
           <br />
           <br /> Elle est primée dans les festivals les plus prestigieux,
           notamment le Grand prix au festival de Cannes 2007 pour le merveilleux
-          La Forêt de Mogari. Après 30 ans d'exil au Proche-Orient et quelques
+          "La Forêt de Mogari". Après 30 ans d'exil au Proche-Orient et quelques
           années de prison, Masao Adachi revient à la réalisation en 2005 après
           avoir été sollicité par des cinéphiles.
           <br />
@@ -435,22 +437,22 @@ export default function Histoire() {
       <aside className='pictureRight'>
         <img src={VoyageTokyo} alt='voyageTokyo' />
         <p className='description'>
-          Affiche du film Voyage à Tokyo de <br />
+          Affiche du film "Voyage à Tokyo" de <br />
           Yasujirō Ozu.
         </p>
         <img src={ConteLune} alt='contelune' />
         <p className='description'>
-          Affiche du film Les Contes de la
-          <br /> lune vague après la pluie de Kenji
+          Affiche du film "Les Contes de la
+          <br /> lune vague après la pluie" de Kenji
           <br /> Mizoguchi.
         </p>
         <img src={Orochi} alt='orochi' />
         <p className='description'>
-          Orochi (1925) de Buntarō
+          "Orochi" (1925) de Buntarō
           <br /> Futagawa.
         </p>
         <img className='godzilla' src={Godzilla} alt='godzilla' />
-        <p className='description'>Affiche du film Godzilla (1954).</p>
+        <p className='description'>Affiche du film "Godzilla" (1954).</p>
         <img className='kitano' src={Kitano} alt='kitano' />
         <p className='description'>Takeshi Kitano</p>
       </aside>
