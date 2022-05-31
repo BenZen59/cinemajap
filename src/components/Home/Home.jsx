@@ -44,6 +44,16 @@ export default function Home() {
         'https://www.telerama.fr/sites/tr_master/files/styles/simplecrop1000/public/medias/2009/12/media_50014/un-cineaste-au-fond-des-yeux-20-kiyoshi-kurosawa%2CM30327.jpg?itok=_nbaoA_o',
       caption: 'Kiyoshi Kurosawa',
     },
+    {
+      image:
+        'https://upload.wikimedia.org/wikipedia/commons/8/8c/Hirokazu_Kore-eda_Cannes_2015.jpg',
+      caption: 'Hirokazu Kore-eda',
+    },
+    {
+      image:
+        'https://www.gala.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fprismamedia_people.2F2018.2F04.2F13.2F0c9406af-df9c-4c0f-a25b-cadb60e58606.2Ejpeg/340x340/quality/80/focus-point/1580%2C1075/ryusuke-hamaguchi.jpg',
+      caption: 'Ryūsuke Hamaguchi',
+    },
   ];
 
   const captionStyle = {
