@@ -11,7 +11,9 @@ export default function Card() {
         return (
           <>
             <div className='inside'>
-              <img src={event.picture} alt='card' />
+              <NavLink to={event.router}>
+                <img src={event.picture} alt='card' />
+              </NavLink>
               <NavLink to={event.router}>
                 <Button className='buttonCard' renderAs='button'>
                   <span> {event.content}</span>

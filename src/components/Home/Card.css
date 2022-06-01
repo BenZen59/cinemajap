@@ -17,8 +17,13 @@
   background-color: #e5e5e5;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
   border-radius: 10px;
-  
 }
+
+.inside img
+{
+  height: 212px;
+}
+
 
 .buttonCard{
   
