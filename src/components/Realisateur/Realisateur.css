@@ -1,34 +1,71 @@
 .realisateur{
   display: 'block';
-  width: 700px;
   padding-left: 30px;
 }
 
+
+.h1{
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.director img{
+  height: 300px;
+  width: 320px;
+}
+
+.realisateur{
+  display:flex;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+
+.director{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+.nameDirector{
+  font-size: 25px;
+  padding: 20px;
+}
 #control-id-container{
-  width: 360px;
+  width: 93.8%;
   height: 360px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center; 
-  margin: 10px;
+  margin-left: 75px;
+  margin-top: -30px;
+  margin-bottom: 30px;
   background-color: #272c36;
   border-radius: 4px;
   color: #fff;
   line-height: 1.66666667;
-  padding: 2px 10px;
+  font-size: 25px;
 }
-
 .button{
-  background-color: #3498ff;
+  background-color: #000;
   border: none;
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 30px;
   margin-bottom: 0;
   overflow: hidden;
   padding: 8px 12px;
