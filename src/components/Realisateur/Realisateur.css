@@ -13,14 +13,15 @@
 }
 
 .director img{
-  height: 300px;
-  width: 320px;
+  height: 388px;
+  width: 300px;
 }
 
 .realisateur{
   display:flex;
   margin-top: 80px;
   margin-bottom: 50px;
+  margin-left: -30px;
   justify-content: space-evenly;
   flex-flow: wrap;
 }
@@ -41,13 +42,12 @@
   padding: 20px;
 }
 #control-id-container{
-  width: 93.8%;
+  width: 98.5%;
   height: 360px;
   text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center; 
-  margin-left: 75px;
+  margin-left: 17px;
   margin-top: -30px;
   margin-bottom: 30px;
   background-color: #272c36;
@@ -56,6 +56,31 @@
   line-height: 1.66666667;
   font-size: 25px;
 }
+
+.directorTooltip{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.presentationTooltip{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.movieTooltip{
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.pTooltip{
+  display: flex;
+  flex-direction: column;
+}
+
 .button{
   background-color: #000;
   border: none;
@@ -73,3 +98,4 @@
   text-align: center;
   text-decoration: none;
 }
+

@@ -31,6 +31,11 @@ export default function Home() {
     },
     {
       image:
+        'https://www.lemagducine.fr/wp-content/uploads/2016/01/Kon-Ichikawa-film-documentaire-Tokyo-Olympiades-critique-cinema.jpg',
+      caption: 'Kon Ichikawa',
+    },
+    {
+      image:
         'https://upload.wikimedia.org/wikipedia/commons/b/b6/Nagisa_Oshima_at_Cannes_in_2000.jpg',
       caption: 'Nagisa Ōshima',
     },
@@ -43,6 +48,11 @@ export default function Home() {
       image:
         'https://www.telerama.fr/sites/tr_master/files/styles/simplecrop1000/public/medias/2009/12/media_50014/un-cineaste-au-fond-des-yeux-20-kiyoshi-kurosawa%2CM30327.jpg?itok=_nbaoA_o',
       caption: 'Kiyoshi Kurosawa',
+    },
+    {
+      image:
+        'https://www.darksidereviews.com/wp-content/uploads/2010/02/sonosion-680x340.jpg',
+      caption: 'Sono Sion',
     },
     {
       image:

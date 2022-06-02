@@ -3,8 +3,16 @@ import data from './Content';
 import { Button, Tooltip, Whisper } from 'rsuite';
 
 export default function Realisateur() {
-  function speaker(props) {
-    const speaker = <Tooltip>{props}</Tooltip>;
+  function speaker(caption, presentation, movie) {
+    const speaker = (
+      <Tooltip>
+        <div className='pTooltip'>
+          <p className='directorTooltip'>{caption}</p>
+          <p className='presentationTooltip'>{presentation}</p>
+          <p className='movieTooltip'>Films notables : {movie}</p>
+        </div>
+      </Tooltip>
+    );
     return speaker;
   }
 
@@ -23,7 +31,11 @@ export default function Realisateur() {
                   controlId='control-id-container'
                   preventOverflow
                   trigger='click'
-                  speaker={speaker(event.caption)}
+                  speaker={speaker(
+                    event.caption,
+                    event.presentation,
+                    event.movie
+                  )}
                   placement='auto'
                 >
                   <Button className='button' appearance='primary'>
