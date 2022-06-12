@@ -50,7 +50,7 @@
 
 #control-id-container{
   width: 98.5%;
-  height: 360px;
+  height: 100%;
   text-align: center;
   display: flex;
   justify-content: center; 
@@ -110,4 +110,20 @@
   color: #000;
   background-color: #e5e5e5;
 }
-
+@media screen and (max-width: 767px){  
+#control-id-container{
+  width: 91%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  margin-left: 17px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  background-color: #272c36;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 1.66666667;
+  font-size: 25px;
+}
+}
