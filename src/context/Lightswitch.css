@@ -1,12 +1,18 @@
 .Lightswitch{
  margin: 15px;
+}
 
+.Lightswitch img{
+  margin-left: 98%;
+  height: 2%;
+  width: 2%;
 }
 
 @media screen and (max-width: 767px){
   
    .Lightswitch img{
      margin-top: 70px;
+     margin-left: 90%;
      height: 12%;
      width: 12%;
    }

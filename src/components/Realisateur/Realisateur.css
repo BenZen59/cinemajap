@@ -41,6 +41,13 @@
   font-size: 25px;
   padding: 20px;
 }
+
+.Container-dark .nameDirector{
+  background-color: black;
+  border-left: solid 1px whitesmoke;
+  border-right: solid 1px whitesmoke;
+}
+
 #control-id-container{
   width: 98.5%;
   height: 360px;
@@ -97,5 +104,10 @@
   position: relative;
   text-align: center;
   text-decoration: none;
+}
+
+.Container-dark .button{
+  color: #000;
+  background-color: #e5e5e5;
 }
 
