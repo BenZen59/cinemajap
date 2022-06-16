@@ -1,7 +1,6 @@
 const data = [
   {
-    image:
-      'https://www.francetvinfo.fr/pictures/ORvfeYev6tADm7NDFE8qCRMfSQ0/1500x843/2016/08/23/astro_boy_1960_143_1280.jpg',
+    image: 'https://www.manga-news.com/public/images/dvd_volumes/theovf4.jpg',
     caption: 'Anime',
     presentation: `Après quelques expérimentations au début du xxe siècle, le premier succès populaire du cinéma d'animation japonais (anime) 
     est Astro, le petit robot, créé en 1963 par Osamu Tezuka et encouragé par le lobby nucléaire américain. Mais la reconnaissance internationale 
@@ -22,6 +21,31 @@ const data = [
     Le mot « chanbara » provient de la contraction des onomatopées « chan-chan bara-bara » qui désignent le bruit de la lame tranchant 
     la chair. Le genre est également appelé ken geki (film de sabre) et est parfois assimilé à un sous-ensemble du « jidai-geki » (film historique).`,
     movie: 'Hara-kiri, Les Sept Samouraïs, Kagemusha',
+  },
+  {
+    image:
+      'https://www.attackfromplanetb.com/wp-content/uploads/2015/06/tumblr_mvje4d8Rkw1qaz1ado1_1280.jpg',
+    caption: 'J-Horror',
+    presentation: `J-Horror est un terme désignant la littérature et le cinéma d’horreur du Japon. La J-Horror est distincte par ses thématiques
+     et son traitement unique par rapport à l’Occident. La J-Horror est plus axée sur
+     l’horreur psychologique, la création de tension. Ce genre traite de fantômes, poltergeists, possession, chamanisme.`,
+    movie: 'Ring, House, Cure',
+  },
+  {
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Yoidore_tenshi_poster.jpg/220px-Yoidore_tenshi_poster.jpg',
+    caption: 'Yakuza eiga',
+    presentation: `Le yakuza eiga (ヤクザ映画 ou ヤクザえいが), parfois simplement appelé film de yakuza en français, est un genre
+    de film très populaire dans le cinéma japonais qui se concentre sur la vie et les relations des yakuzas, également appelé la mafia japonaise.`,
+    movie: 'Ange ivre, Sonatine, Hana-Bi',
+  },
+  {
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Hideko_Takamine.jpg/156px-Hideko_Takamine.jpg',
+    caption: 'Comédie japonaise',
+    presentation: `La comédie japonaise commence à se mettre en place au début des années 1950, après la fin de la Seconde Guerre mondiale. Carmen 
+    revient au pays est le premier film japonais en couleurs, et l'un des premiers films de comédie japonaise.`,
+    movie: `Carmen revient au pays, The Hole, L'Inspectrice des impôts`,
   },
 ];
 
