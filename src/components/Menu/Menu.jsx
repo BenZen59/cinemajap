@@ -39,6 +39,11 @@ export default function Menu() {
             Studios
           </NavLink>
         </li>
+        <li className='navBarItem'>
+          <NavLink onClick={handleShowLinks} to='/film'>
+            Films
+          </NavLink>
+        </li>
       </ul>
       <button className='navBarBurger' onClick={handleShowLinks}>
         <span className='burgerBar'></span>
