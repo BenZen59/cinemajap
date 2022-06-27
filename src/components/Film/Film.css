@@ -15,10 +15,10 @@
 
 .texteChamps td{
   border: 1px solid gray;
-  padding-top: 15px;
+  /* padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 52px;
-  padding-right: 60px;
+  padding-right: 60px; */
   color: black;
   text-align: center;
   background-color: whitesmoke;
@@ -30,9 +30,11 @@
   width: 740px;
   font-size: 25px;
   margin-left: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
-.button{
+.buttonAdd{
   background-color: #000;
   border: none;
   color: #fff;
@@ -42,7 +44,19 @@
   margin-left: -300px;
   width: 250px;
   height: 50px;
+}
 
+.enregistrer{
+  background-color: #000;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 435px;
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
 }
 
 .film{

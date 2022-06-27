@@ -15,7 +15,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "reset-css": "^5.0.1",
-    "rsuite": "^5.13.1",
+    "rsuite": "^5.15.1",
     "suite": "^0.2.0",
     "web-vitals": "^2.1.4"
   },
