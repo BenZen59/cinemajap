@@ -24,10 +24,12 @@ export default function Film() {
               <th>Réalisateur</th>
               <th>Année de sortie</th>
             </tr>
-            <Add />
+            <Add addMovie={addMovie} />
           </table>
         </div>
-        <button className='buttonAdd'>Ajouter un film</button>
+        <button className='buttonAdd' onClick={addMovieButton}>
+          Ajouter un film
+        </button>
       </div>
       <button className='enregistrer' hidden={showRegister}>
         Enregistrer le film
