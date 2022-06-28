@@ -12,6 +12,7 @@ export default function Add(props) {
               className='inputAdd'
               id='nomFilm'
               name='nomFilm'
+              onchange='sessionStorage.nomFilm=this.value'
             />
           </td>
           <td>
@@ -20,10 +21,17 @@ export default function Add(props) {
               type='text'
               id='realisateur'
               name='realisateur'
+              onchange='sessionStorage.realisateur=this.value'
             />
           </td>
           <td>
-            <input className='inputAdd' type='text' id='annee' name='annee' />
+            <input
+              className='inputAdd'
+              type='text'
+              id='annee'
+              name='annee'
+              onchange='sessionStorage.annee=this.value'
+            />
           </td>
         </tr>
       </>

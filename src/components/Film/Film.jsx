@@ -11,7 +11,12 @@ export default function Film() {
   }
 
   function addMovieButton() {
+    const add = document.querySelector('.buttonAdd');
     setAddMovie(!addMovie);
+    add.style.backgroundColor = 'grey';
+    add.style.cursor = 'not-allowed';
+    add.style.color = 'black';
+    setShowRegister();
   }
 
   return (
@@ -27,7 +32,11 @@ export default function Film() {
             <Add addMovie={addMovie} />
           </table>
         </div>
-        <button className='buttonAdd' onClick={addMovieButton}>
+        <button
+          className='buttonAdd'
+          onClick={addMovieButton}
+          disabled={addMovie}
+        >
           Ajouter un film
         </button>
       </div>
