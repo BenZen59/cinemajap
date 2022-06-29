@@ -1,6 +1,21 @@
 import './Add.css';
 
 export default function Add(props) {
+  let data = [];
+
+  function addMovieFunction() {
+    const nomFilm = document.getElementById('nomFilm').value;
+    const realisateur = document.getElementById('realisateur').value;
+    const annee = document.getElementById('annee').value;
+    data.push({ name: nomFilm, director: realisateur, year: annee });
+    console.log(data);
+  }
+
+  // localStorage.setItem('data', JSON.stringify(data));
+
+  // let retrieve = JSON.parse(localStorage.getItem('data'));
+  // console.log(retrieve);
+
   const addMovie = props.addMovie;
   if (addMovie === true) {
     return (
@@ -12,7 +27,6 @@ export default function Add(props) {
               className='inputAdd'
               id='nomFilm'
               name='nomFilm'
-              onchange='sessionStorage.nomFilm=this.value'
             />
           </td>
           <td>
@@ -21,17 +35,10 @@ export default function Add(props) {
               type='text'
               id='realisateur'
               name='realisateur'
-              onchange='sessionStorage.realisateur=this.value'
             />
           </td>
           <td>
-            <input
-              className='inputAdd'
-              type='text'
-              id='annee'
-              name='annee'
-              onchange='sessionStorage.annee=this.value'
-            />
+            <input className='inputAdd' type='text' id='annee' name='annee' />
           </td>
         </tr>
       </>
