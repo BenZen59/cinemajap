@@ -1,17 +1,6 @@
 import './Add.css';
 
 export default function Add(props) {
-  let data = [];
-
-  // eslint-disable-next-line no-unused-vars
-  function addMovieFunction() {
-    const nomFilm = document.getElementById('nomFilm').value;
-    const realisateur = document.getElementById('realisateur').value;
-    const annee = document.getElementById('annee').value;
-    data.push({ name: nomFilm, director: realisateur, year: annee });
-    console.log(data);
-  }
-
   // localStorage.setItem('data', JSON.stringify(data));
 
   // let retrieve = JSON.parse(localStorage.getItem('data'));

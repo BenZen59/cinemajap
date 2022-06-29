@@ -1,11 +1,21 @@
 import { useState } from 'react';
 import './Film.css';
 import Add from './Add';
-import addMovieFunction from './Add';
 
 export default function Film() {
   const [showRegister, setShowRegister] = useState(true);
   const [addMovie, setAddMovie] = useState(false);
+
+  let data = [];
+  console.log(data);
+
+  function addMovieFunction() {
+    const nomFilm = document.getElementById('nomFilm').value;
+    const realisateur = document.getElementById('realisateur').value;
+    const annee = document.getElementById('annee').value;
+    data.push({ name: nomFilm, director: realisateur, year: annee });
+    console.log(data);
+  }
 
   function showButtonRegister() {
     setShowRegister(!showRegister);
