@@ -14,7 +14,9 @@ export default function Film() {
     const realisateur = document.getElementById('realisateur').value;
     const annee = document.getElementById('annee').value;
     data.push({ name: nomFilm, director: realisateur, year: annee });
-    console.log(data);
+    localStorage.setItem('data', JSON.stringify(data));
+    let retrieveData = JSON.parse(localStorage.getItem('data'));
+    console.log(retrieveData);
   }
 
   function showButtonRegister() {
