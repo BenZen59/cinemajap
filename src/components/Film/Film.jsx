@@ -1,26 +1,40 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Film.css';
 import Add from './Add';
 
 export default function Film() {
   const [showRegister, setShowRegister] = useState(true);
   const [addMovie, setAddMovie] = useState(false);
+  const [movielist, setMovielist] = useState([]);
+  console.log(movielist);
 
-  let data = [];
-  console.log(data);
+  useEffect(() => {
+    const newList = JSON.parse(localStorage.getItem('movielist'));
+    if (newList) setMovielist(newList);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('movielist', JSON.stringify(movielist));
+  }, [movielist]);
+
+  function showButtonRegister() {
+    setShowRegister(!showRegister);
+  }
 
   function addMovieFunction() {
     const nomFilm = document.getElementById('nomFilm').value;
     const realisateur = document.getElementById('realisateur').value;
     const annee = document.getElementById('annee').value;
-    data.push({ name: nomFilm, director: realisateur, year: annee });
-    localStorage.setItem('data', JSON.stringify(data));
-    let retrieveData = JSON.parse(localStorage.getItem('data'));
-    console.log(retrieveData);
-  }
-
-  function showButtonRegister() {
-    setShowRegister(!showRegister);
+    setMovielist((oldArray) => [
+      ...oldArray,
+      { name: nomFilm, director: realisateur, year: annee },
+    ]);
+    showButtonRegister();
+    setAddMovie(!addMovie);
+    const notAdd = document.querySelector('.buttonAdd');
+    notAdd.style.backgroundColor = 'black';
+    notAdd.style.cursor = 'pointer';
+    notAdd.style.color = 'whitesmoke';
   }
 
   function addMovieButton() {
@@ -42,6 +56,15 @@ export default function Film() {
               <th>Réalisateur</th>
               <th>Année de sortie</th>
             </tr>
+            {/* {movielist.map((movie) => {
+              return (
+                <tr>
+                  <td>{movie.name}</td>
+                  <td>{movie.director}</td>
+                  <td>{movie.year}</td>
+                </tr>
+              );
+            })} */}
             <Add addMovie={addMovie} />
           </table>
         </div>
