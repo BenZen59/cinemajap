@@ -56,7 +56,7 @@ export default function Film() {
               <th>Réalisateur</th>
               <th>Année de sortie</th>
             </tr>
-            {/* {movielist.map((movie) => {
+            {movielist.map((movie) => {
               return (
                 <tr>
                   <td>{movie.name}</td>
@@ -64,7 +64,7 @@ export default function Film() {
                   <td>{movie.year}</td>
                 </tr>
               );
-            })} */}
+            })}
             <Add addMovie={addMovie} />
           </table>
         </div>
