@@ -1,11 +1,6 @@
 import './Add.css';
 
 export default function Add(props) {
-  // localStorage.setItem('data', JSON.stringify(data));
-
-  // let retrieve = JSON.parse(localStorage.getItem('data'));
-  // console.log(retrieve);
-
   const addMovie = props.addMovie;
   if (addMovie === true) {
     return (

@@ -38,6 +38,7 @@
   cursor: pointer;
   font-size: 16px;
   margin-left: -300px;
+  margin-bottom: 5px;
   width: 250px;
   height: 50px;
 }
@@ -51,6 +52,7 @@
   font-size: 16px;
   margin-left: 435px;
   margin-top: 20px;
+  margin-bottom: 5px;
   width: 250px;
   height: 50px;
 }
@@ -79,44 +81,19 @@
 
 @media screen and (max-width: 767px){  
   .texteChamps{
-    color: whitesmoke;
-    background-color: black;
     font-size: 15px;
   }
   
   .texteChamps th{
-    border: 1px solid gray;
-    padding-top: 15px;
-    padding-bottom: 15px;
     padding-left: 2px;
     padding-right: 2px;
-    text-align: center;
-  }
-  
-  .texteChamps td{
-    border: 1px solid gray;
-    color: black;
-    text-align: center;
-    background-color: whitesmoke;
   }
   
   .champs{
-    border: 1px solid black;
-    height: auto;
     width: 370px;
-    font-size: 25px;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: column;
   }
   
   .buttonAdd{
-    background-color: #000;
-    border: none;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
     margin-left: 9px;
     margin-top: 20px;
     width: 145px;
@@ -124,12 +101,6 @@
   }
   
   .enregistrer{
-    background-color: #000;
-    border: none;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
     margin-left: 9px;
     margin-top: 20px;
     width: 145px;
@@ -137,8 +108,6 @@
   }
   
   .film{
-    display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
   }
 }
