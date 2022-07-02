@@ -4,6 +4,11 @@
   font-size: 16px;
 }
 
+.Container-dark .inputAdd{
+  color: black;
+  background-color: #949494;
+}
+
 @media screen and (max-width: 767px){  
 .inputAdd{
   width: 95%;

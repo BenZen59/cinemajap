@@ -60,6 +60,23 @@
   justify-content: space-evenly;
 }
 
+.Container-dark .buttonAdd{
+  color: #000;
+  background-color: #e5e5e5;
+}
+
+.Container-dark .enregistrer{
+  color: #000;
+  background-color: #e5e5e5;
+}
+
+
+
+.Container-dark .texteChamps td{
+  color: black;
+  background-color: #949494;
+}
+
 @media screen and (max-width: 767px){  
   .texteChamps{
     color: whitesmoke;
